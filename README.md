@@ -1,5 +1,42 @@
 # SlideObjectRecognition
 
+# Project Description: Elements Detection in PowerPoint Presentations using YOLOv8
+
+## Overview
+- Annotated more than 800 images of PowerPoint slides with 10 classes representing different elements
+- Divided the dataset into train, test, and validation sets
+- Utilized YOLOv8 segmentation model for training and detection
+
+## Dataset Annotation
+- Annotated PowerPoint slide images with precise labels for each element
+- Ensured accurate labeling for ten different element classes
+
+## Dataset Split
+- Divided the annotated dataset into training, testing, and validation sets
+- Maintained consistency by resizing each image to 640x640 pixels
+
+## Training the YOLOv8 Model
+- Used YOLOv8 segmentation model for element detection
+- Trained the model for 100 epochs to refine predictions
+- Monitored loss and optimized the model using backward passes
+
+## Model Evaluation
+- Evaluated the trained model using the validation set
+- Calculated precision, recall, and mean average precision (mAP) metrics
+- Achieved an overall mAP of 0.674 with strong performance across element classes
+
+## Visualizations
+- Generated visualizations including confusion matrices, detection results, and bounding boxes
+- Provided visual insights into the model's performance
+
+## Testing and Generalization
+- Assessed the model's generalization using the testing set
+- Demonstrated consistent and reliable detection performance on unseen PowerPoint presentations
+
+## Conclusion
+- Developed an effective solution for automated element detection in PowerPoint presentations
+- Enabled efficient analysis and processing of PowerPoint content
+- Potential applications include content analysis, slide categorization, and automation of PowerPoint-related tasks
 The project aimed to develop a solution for automatic detection of various elements within PowerPoint presentations. The dataset used in this project consisted of more than 800 annotated images of PowerPoint slides, with each image containing one or more elements belonging to ten different classes. The classes represented distinct types of elements found in PowerPoint slides, such as body text, bullet points, headers, images, logos, subtitles, titles, and more.
 
 The project workflow involved several steps. Firstly, the dataset was meticulously annotated, ensuring that each element in the images was labeled with the appropriate class. This process enabled the creation of a comprehensive and accurately labeled dataset.
