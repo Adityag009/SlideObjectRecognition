@@ -37,7 +37,8 @@
 - Developed an effective solution for automated element detection in PowerPoint presentations
 - Enabled efficient analysis and processing of PowerPoint content
 - Potential applications include content analysis, slide categorization, and automation of PowerPoint-related tasks
-The project aimed to develop a solution for automatic detection of various elements within PowerPoint presentations. The dataset used in this project consisted of more than 800 annotated images of PowerPoint slides, with each image containing one or more elements belonging to ten different classes. The classes represented distinct types of elements found in PowerPoint slides, such as body text, bullet points, headers, images, logos, subtitles, titles, and more.
+
+The project aimed to develop a solution for the automatic detection of various elements within PowerPoint presentations. The dataset used in this project consisted of more than 800 annotated images of PowerPoint slides, with each image containing one or more elements belonging to ten different classes. The classes represented distinct types of elements found in PowerPoint slides, such as body text, bullet points, headers, images, logos, subtitles, titles, and more.
 
 The project workflow involved several steps. Firstly, the dataset was meticulously annotated, ensuring that each element in the images was labeled with the appropriate class. This process enabled the creation of a comprehensive and accurately labeled dataset.
 
